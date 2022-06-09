@@ -1,0 +1,15 @@
+{
+  "name": "api-notes",
+  "version": "1.0.0",
+  "description": "Api Notes",
+  "main": "app.js",
+  "scripts": {
+    "start":"node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nicoescudero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
