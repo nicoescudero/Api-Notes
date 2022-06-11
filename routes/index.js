@@ -6,5 +6,6 @@ routes.get('/',(req,res)=>{
 });
 
 routes.use('/notes',require('./notes-routes'));
+routes.use('/user',require('./user-routes'));
 
 module.exports=routes;
